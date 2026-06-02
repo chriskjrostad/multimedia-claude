@@ -1,6 +1,6 @@
 # LinkedIn Post — draft (edit to taste, it's your voice)
 
-> Post when the repo is public. Replace [REPO LINK] with the real URL.
+> Post when the repo is public. Replace https://github.com/chriskjrostad/multimedia-claude with the real URL.
 > First-person, plain, no hype. The steps are written so a non-technical person can follow them cold.
 
 ---
@@ -26,7 +26,7 @@ Here's the whole setup, start to finish (about 5 minutes, no tech skills):
 
 1. Go to claude.ai and sign in. (Projects are on the paid plan, about the cost of one lunch a month.) You don't install anything - it all happens in your browser.
 
-2. Get the files: open [REPO LINK], click the green "Code" button, then "Download ZIP." Open the downloaded folder (right-click the zip, "Extract All" if it asks).
+2. Get the files: open https://github.com/chriskjrostad/multimedia-claude, click the green "Code" button, then "Download ZIP." Open the downloaded folder (right-click the zip, "Extract All" if it asks).
 
 3. In Claude, click "Projects" in the left menu, then "Create Project." Name it "Multimedia Claude."
 
@@ -40,6 +40,6 @@ Here's the whole setup, start to finish (about 5 minutes, no tech skills):
 
 One more thing: if you get stuck on any step, paste it into Claude and ask "how do I do this?" Walking you through stuff is literally what it's for.
 
-It's free and open: [REPO LINK]
+It's free and open: https://github.com/chriskjrostad/multimedia-claude
 
 If you run social for a church, a small business, a podcast, or a nonprofit and you're doing this by hand every week, give it a try. And if it breaks on you, tell me. I want to make this actually work for normal people, not just builders.
