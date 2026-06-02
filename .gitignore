@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# secrets / env (nothing should ever live here, but belt-and-suspenders)
+.env
+.env.*
+*.key
+*.pem
+sa-key*.json
+
+# logs / temp / local scratch
+*.log
+/tmp/
+_*.tmp
+node_modules/
