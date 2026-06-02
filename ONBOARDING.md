@@ -9,15 +9,18 @@ no terminal, no installing anything.
 - The 5 files from this kit: `project/instructions.md` and the four files in `project/knowledge/`.
 
 ## Setup (one time)
-1. **Sign in at claude.ai.** In the left sidebar, click **Projects**, then **Create Project**. Name it "Multimedia Claude."
-2. **Add the instructions.** Open the Project, find **Set custom instructions** (or "Instructions"). Open the file `project/instructions.md`, copy everything in it, and paste it there. Save.
-3. **Add the knowledge files.** In the Project, click **Add content** (or the upload button). Upload these four files:
+1. **Get the files from GitHub (no tech needed).** Open this repo's main page, click the green **`Code`** button, then **`Download ZIP`**. Find the downloaded `.zip` in your Downloads, right-click it, and choose **Extract All** (Windows) or double-click it (Mac). You now have a folder with all the files.
+2. **Sign in at claude.ai.** In the left sidebar, click **Projects**, then **Create Project**. Name it "Multimedia Claude." (You don't install anything — it runs in your browser.)
+3. **Add the instructions.** Open the Project, find **Set custom instructions** (or "Instructions"). Open the file `project/instructions.md` (it opens in Notepad/TextEdit — it's just text), copy everything in it, and paste it there. Save.
+4. **Add the knowledge files.** In the Project, click **Add content** (or the upload button). Upload these four files from the `project/knowledge` folder:
    - `01-personalization-interview.md`
    - `02-weekly-workflow.md`
    - `03-tool-guides.md`
    - `04-voice-and-quality.md`
-4. **Start a chat in the Project** and type: **`let's get set up`**. It'll ask you ~8 quick questions about your org, then hand you a "My Brand Profile."
-5. **Save your profile.** It'll tell you how — the easiest is to upload it back into the Project as a small file called `my-brand.md`. Now it knows your organization in every chat.
+5. **Start a chat in the Project** and type: **`let's get set up`**. It'll ask you ~8 quick questions about your org, then hand you a "My Brand Profile."
+6. **Save your profile.** It'll tell you how — the easiest is to upload it back into the Project as a small file called `my-brand.md`. Now it knows your organization in every chat.
+
+> Stuck on any step? Paste it into Claude and ask "how do I do this?" — walking you through things is the whole point.
 
 That's it. You're set up.
 

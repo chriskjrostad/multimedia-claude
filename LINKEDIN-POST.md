@@ -1,7 +1,7 @@
 # LinkedIn Post — draft (edit to taste, it's your voice)
 
-> Post this when the repo is flipped to public. Replace [REPO LINK] with the real URL.
-> First-person, plain, no hype. The "tell me if it breaks" close is the funnel.
+> Post when the repo is public. Replace [REPO LINK] with the real URL.
+> First-person, plain, no hype. The steps are written so a non-technical person can follow them cold.
 
 ---
 
@@ -20,16 +20,26 @@ You give it one long piece of content - a sermon, a podcast episode, a webinar, 
 - hands you the quote graphic
 - then walks you click-by-click through cutting the clip (CapCut) and scheduling the post (Meta Business Suite)
 
-It's the brain. You're the hands. No code, no server, nothing to install. It runs as a Project right inside the Claude app.
+It's the brain. You're the hands. Nothing to install, no code, no server. It runs as a Project right inside Claude, in your browser.
 
-How to get started (about 5 minutes):
+Here's the whole setup, start to finish (about 5 minutes, no tech skills):
 
-1. Make a new Project in the Claude app
-2. Paste in the instructions file
-3. Upload the 4 knowledge files
-4. Type "let's get set up" and answer a few quick questions about your org
-5. Bring it your first sermon/episode and follow along
+1. Go to claude.ai and sign in. (Projects are on the paid plan, about the cost of one lunch a month.) You don't install anything - it all happens in your browser.
 
-It's free and open. Everything is on GitHub: [REPO LINK]
+2. Get the files: open [REPO LINK], click the green "Code" button, then "Download ZIP." Open the downloaded folder (right-click the zip, "Extract All" if it asks).
 
-If you run social for a church, a small business, a podcast, or a nonprofit and you're doing this by hand every week, give it a try. And if it breaks on you, tell me. I want to make this actually work for non-technical people, not just for builders.
+3. In Claude, click "Projects" in the left menu, then "Create Project." Name it "Multimedia Claude."
+
+4. Open the project, find "Instructions" (or "Set custom instructions"). From the folder, open the file at project/instructions.md (it opens in Notepad - it's just text), select all, copy, paste it into the instructions box, save.
+
+5. In the project, click "Add content" and upload the 4 files inside the project/knowledge folder.
+
+6. Start a chat in the project and type: let's get set up. Answer a few questions about your organization.
+
+7. That's it. Next time, just bring it a sermon (or episode, or video) and it does the rest.
+
+One more thing: if you get stuck on any step, paste it into Claude and ask "how do I do this?" Walking you through stuff is literally what it's for.
+
+It's free and open: [REPO LINK]
+
+If you run social for a church, a small business, a podcast, or a nonprofit and you're doing this by hand every week, give it a try. And if it breaks on you, tell me. I want to make this actually work for normal people, not just builders.
