@@ -16,45 +16,27 @@ Multimedia Claude turns Claude Code into an autonomous media assistant that actu
 
 ## Setup (5 minutes, one time)
 
-### Step 1: Install Claude Code
+### 1. Sign up for Claude Pro ($20/month)
+Go to **[claude.ai](https://claude.ai)** → Create account → Upgrade to Pro.
 
-Claude Code is the AI that runs on your computer and does the actual work. It requires a [Claude Pro subscription](https://claude.ai/upgrade) ($20/month).
-
-**Mac:**
-Open Terminal (search "Terminal" in Spotlight) and paste:
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-
-**Windows:**
-Install [Node.js](https://nodejs.org) first (download the LTS version, run the installer). Then open PowerShell and paste:
-```powershell
-npm install -g @anthropic-ai/claude-code
-```
-
-**Don't have Node.js?** Go to [nodejs.org](https://nodejs.org), download the big green button, install it, then come back and run the command above.
-
-### Step 2: Start Claude and give it this file
-
-Open your terminal and paste this:
-
-```bash
-claude "Set yourself up as my media assistant. Read your instructions from: https://raw.githubusercontent.com/chriskjrostad/multimedia-claude/main/CLAUDE.md"
-```
-
-Claude will:
-- Read its instructions (the CLAUDE.md file)
-- Ask your name and organization
-- Install the video tools it needs (ffmpeg, whisper)
-- Tell you it's ready
-
-### Step 3: Give it a video
+### 2. Open a new chat on claude.ai and paste this:
 
 ```
-"Here's this week's sermon — make me 5 reels"
+I need you to help me set up Claude Code on my computer so I can use it as my media assistant. I want to give it a sermon video (or any video) and have it automatically make reels for me.
+
+Here's the setup file: https://github.com/chriskjrostad/multimedia-claude/blob/main/CLAUDE.md
+
+I might not have anything installed yet. Don't tell me to figure things out — install everything for me step by step. Ask me what kind of computer I have first. If something goes wrong, fix it before moving on. I am not technical and that's okay.
 ```
 
-Drop the file into the conversation, or tell Claude where it is on your computer. Claude handles everything else.
+### 3. Follow along. Claude sets everything up for you.
+
+### 4. Once it's running, just say:
+```
+Here's this week's sermon — make me 5 reels
+```
+
+Drop the file in. Claude handles everything else. That's it. You're done.
 
 ## What Claude Does With Your Video
 
